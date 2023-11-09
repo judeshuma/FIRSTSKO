@@ -1,0 +1,5 @@
+#!/bin/bash
+
+alias ipaddy1="echo $(ifconfig | grep broadcast | awk '{print $2}')"
+
+#paste this command into your .bashrc file found in the home folder.
