@@ -1,4 +1,4 @@
-#!/bin/bash
+## code for permanent alias locating one's IPaddress
 
 alias ipaddy1="echo $(ifconfig | grep broadcast | awk '{print $2}')"
 
